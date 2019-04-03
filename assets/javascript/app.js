@@ -93,9 +93,9 @@ $(document).ready(function () {
     //add a new button for gif topic
     $("#submitButton").on("click", function () {
         //store input in var
-        var sweet = $("#userinput").val().trim();
+        var artist = $("#userinput").val().trim();
         //push into topic array
-        topics.push(sweet)
+        topics.push(artist)
         //resets the input to empty for new 
         form.reset();
         //call function to create button
