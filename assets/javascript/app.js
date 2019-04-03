@@ -32,10 +32,10 @@ $(document).ready(function () {
     function showGifs() {
         $('#images').empty();
         //api url and api key held in var
-        var sweet = $(this).attr("data-name");
+        var music = $(this).attr("data-name");
         var apiKey = "YrvBw0K8qd3821iWjFt8brLmU0XmVDjJ";
         var limitOf = 10;
-        var fullUrl = "https://api.giphy.com/v1/gifs/search?api_key=" + apiKey + "&q=" + sweet + "&limit=" + limitOf + "&offset=0&lang=en";
+        var fullUrl = "https://api.giphy.com/v1/gifs/search?api_key=" + apiKey + "&q=" + music + "&limit=" + limitOf + "&offset=0&lang=en";
 
         //Ajax linked
         $.ajax({
