@@ -1,0 +1,47 @@
+body {
+    background: url("https://previews.123rf.com/images/cerberoff/cerberoff1805/cerberoff180500006/101786191-audio-tapes-for-tape-recorder-70s-80s-90s-bokeh-vintage-fashion-old-retro-wallpaper-background-textu.jpg");
+    font-family: 'Chela One', cursive;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 2px;
+    border-left: 5px solid pink;
+    border-right: 5px solid pink;
+    background: url("https://data.whicdn.com/images/134609488/large.jpg");
+}
+
+.treat{
+    border: solid pink 3px;
+    margin: 10px;
+    font-family: 'Chela One', cursive;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 5%;
+    padding: 1%;
+    background: mintcream;
+    border: solid pink 5px;
+    font-size: 50px;
+    font-family: 'Chela One', cursive;
+}
+
+img {
+    border: solid pink 3px;
+    float: left;
+}
+
+
+.treats{
+    border: solid pink 3px;
+    margin: 10px;
+    background-color: mintcream;
+    float: left;
+}
+
+label{
+    font-size: 20px;
+}
