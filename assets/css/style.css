@@ -8,13 +8,13 @@ body {
     margin-right: 10%;
     text-align: center;
     padding: 2px;
-    border-left: 5px solid pink;
-    border-right: 5px solid pink;
+    border-left: 5px solid purple;
+    border-right: 5px solid purple;
     background: url("https://data.whicdn.com/images/134609488/large.jpg");
 }
 
 .band{
-    border: solid pink 3px;
+    border: solid purple 3px;
     margin: 10px;
     font-family: 'Chela One', cursive;
     font-size: 20px;
@@ -24,21 +24,21 @@ h1 {
     margin-top: 5%;
     padding: 1%;
     background: mintcream;
-    border: solid pink 5px;
+    border: solid purple 5px;
     font-size: 50px;
     font-family: 'Chela One', cursive;
 }
 
 img {
-    border: solid pink 3px;
+    border: solid greenyellow 3px;
     float: left;
 }
 
 
 .bands{
-    border: solid pink 3px;
+    border: solid purple 3px;
     margin: 10px;
-    background-color: mintcream;
+    background-color: greenyellow;
     float: left;
 }
 
