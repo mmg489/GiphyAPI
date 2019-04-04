@@ -13,7 +13,7 @@ body {
     background: url("https://data.whicdn.com/images/134609488/large.jpg");
 }
 
-.treat{
+.band{
     border: solid pink 3px;
     margin: 10px;
     font-family: 'Chela One', cursive;
@@ -35,7 +35,7 @@ img {
 }
 
 
-.treats{
+.bands{
     border: solid pink 3px;
     margin: 10px;
     background-color: mintcream;

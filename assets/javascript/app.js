@@ -18,7 +18,7 @@ $(document).ready(function () {
         for (var i = 0; i < topics.length; i++) {
             //adding a button for each array option, and adding class, text and attr
             var sOption = $("<button>")
-            sOption.addClass("treat");
+            sOption.addClass("band");
             sOption.attr("data-name", topics[i]);
             sOption.text(topics[i]);
             //adding to html
@@ -49,21 +49,21 @@ $(document).ready(function () {
             //loop through each gif 
             for (var i = 0; i < results.length; i++) {
                 //create div, with class and set to img
-                var gifDiv = $("<div class=treats>");
-                var showTreat = $("<img>");
+                var gifDiv = $("<div class=bands>");
+                var showBand = $("<img>");
                 //pull the images held in API object
-                showTreat.attr('src', results[i].images.fixed_height_still.url);
-                showTreat.attr("data-still", results[i].images.fixed_height_still.url);
-                showTreat.attr('data-animate', results[i].images.fixed_height.url);
-                showTreat.attr("data-state", "still");
+                showBand.attr('src', results[i].images.fixed_height_still.url);
+                showBand.attr("data-still", results[i].images.fixed_height_still.url);
+                showBand.attr('data-animate', results[i].images.fixed_height.url);
+                showBand.attr("data-state", "still");
                 //add class to gif image
-                showTreat.addClass('gif');
+                showBand.addClass('gif');
                 //add to html
-                gifDiv.append(showTreat)
+                gifDiv.append(showBand)
 
                 //set rating variable 
                 var rating = results[i].rating;
-                //add p tag, and stor rating in then append to html
+                //add p tag, and store rating in then append to html
                 var gifRating = $("<p>").text("Rating: " + rating);
                 gifDiv.append(gifRating)
 
@@ -111,7 +111,7 @@ $(document).ready(function () {
 
     //calling the functions on click
 
-    $(document).on("click", ".treat", showGifs);
+    $(document).on("click", ".band", showGifs);
 
 
     createButton()
