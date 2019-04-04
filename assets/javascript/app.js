@@ -2,8 +2,8 @@ $(document).ready(function () {
 
     //GLOBAL VARIABLES 
     //_____________________________________________
-    var topics = ["TLC", "Nirvana", "Pearl Jam", "NSYNC", "Backstreet Boys", "Spice Girls", "Aerosmith",
-    "Janet Jackson", "No Doubt", "Michael Jackson", "Bon Jovi", "Britney Spears", "Boyz II Men", "2Pac"];
+    var topics = ["TLC", "Nirvana", "Pearl Jam", "NSYNC", "Backstreet Boys", "Spice Girls", "R.E.M.", "Alanis Morissette",
+    "Salt-N-Pepa", "No Doubt", "Michael Jackson", "Bon Jovi", "Britney Spears", "Boyz II Men", "2Pac"];
 
 
     //FUNCTIONS

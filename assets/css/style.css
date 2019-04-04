@@ -1,6 +1,6 @@
 body {
     background: url("https://previews.123rf.com/images/cerberoff/cerberoff1805/cerberoff180500006/101786191-audio-tapes-for-tape-recorder-70s-80s-90s-bokeh-vintage-fashion-old-retro-wallpaper-background-textu.jpg");
-    font-family: 'Chela One', cursive;
+    font-family: 'Special Elite', cursive;
 }
 
 #container {
@@ -17,17 +17,20 @@ body {
 .band{
     border: solid purple 3px;
     margin: 10px;
-    font-family: 'Chela One', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 20px;
+    color: purple;
+    background-color: greenyellow;
 }
 
 h1 {
     margin-top: 5%;
     padding: 1%;
-    background: mintcream;
+    background: greenyellow;
     border: solid purple 5px;
     font-size: 50px;
-    font-family: 'Chela One', cursive;
+    font-family: 'Special Elite', cursive;
+    color: purple;
 }
 
 img {
