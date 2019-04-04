@@ -36,6 +36,7 @@ h1 {
 img {
     border: solid greenyellow 3px;
     float: left;
+    color: purple;
 }
 
 
@@ -46,6 +47,13 @@ img {
     float: left;
 }
 
+p {color: purple;}
+
 label{
     font-size: 20px;
 }
+/* 
+#playlist{
+    flex-wrap: wrap;
+    opacity: .8;
+} */
